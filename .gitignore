@@ -1,4 +1,6 @@
-.vs
-Debug
-configInicial/Debug
-External Libraries/
+lab_computacion_grafica/
+.vs/
+*.exe
+*.obj
+*.log
+*.vcxproj.user
