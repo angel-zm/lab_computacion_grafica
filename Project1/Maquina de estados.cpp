@@ -513,12 +513,7 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 		}
 		else
 		{
-			// al desactivar, restauramos pose neutra
-			head = 0.0f;
-			tail = 0.0f;
-			FLegs = 0.0f;
-			RLegs = 0.0f;
-			dogAnim = 0;
+			
 		}
 	}
 }
