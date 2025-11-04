@@ -55,47 +55,48 @@ glm::vec3 pointLightPositions[] = {
 
 float vertices[] = {
 	 -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-		0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-		0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-		0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-	   -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-	   -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	  0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	  0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	  0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	 -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+	 -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
 
-	   -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
-		0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
-		0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
-		0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
-	   -0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
-	   -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	 -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	  0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	  0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	  0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	 -0.5f,  0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
+	 -0.5f, -0.5f,  0.5f,  0.0f,  0.0f,  1.0f,
 
-	   -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-	   -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-	   -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-	   -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-	   -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-	   -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+	 -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+	 -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+	 -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+	 -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+	 -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+	 -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
 
-		0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-		0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-		0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-		0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-		0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-		0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+	  0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+	  0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+	  0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+	  0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+	  0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+	  0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
 
-	   -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-		0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-		0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-		0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-	   -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-	   -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+	 -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+	  0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+	  0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+	  0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+	 -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+	 -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
 
-	   -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
-		0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
-		0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-		0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-	   -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-	   -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
+	 -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+	  0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+	  0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+	  0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+	 -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+	 -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
 };
+
 
 
 glm::vec3 Light1 = glm::vec3(0);
@@ -117,7 +118,7 @@ float dogPosX , dogPosY , dogPosZ  ;
 int i_max_steps = 190;
 int i_curr_steps = 0;
 typedef struct _frame {
-	
+
 	float rotDog;
 	float rotDogInc;
 	float dogPosX;
@@ -129,7 +130,13 @@ typedef struct _frame {
 	float head;
 	float headInc;
 
-
+	// Añadidos para patas y cola
+	float FLegs;
+	float FLegsInc;
+	float RLegs;
+	float RLegsInc;
+	float tail;
+	float tailInc;
 
 }FRAME;
 
@@ -151,6 +158,11 @@ void saveFrame(void)
 
 	KeyFrame[FrameIndex].head = head;
 
+	// Guardar patas y cola
+	KeyFrame[FrameIndex].FLegs = FLegs;
+	KeyFrame[FrameIndex].RLegs = RLegs;
+	KeyFrame[FrameIndex].tail = tail;
+
 	FrameIndex++;
 }
 
@@ -163,6 +175,10 @@ void resetElements(void)
 	rotDog = KeyFrame[0].rotDog;
 	head = KeyFrame[0].head;
 
+	// Reset patas y cola al primer keyframe
+	FLegs = KeyFrame[0].FLegs;
+	RLegs = KeyFrame[0].RLegs;
+	tail = KeyFrame[0].tail;
 }
 void interpolation(void)
 {
@@ -174,11 +190,15 @@ void interpolation(void)
 	KeyFrame[playIndex].rotDogInc = (KeyFrame[playIndex + 1].rotDog - KeyFrame[playIndex].rotDog) / i_max_steps;
 	KeyFrame[playIndex].headInc = (KeyFrame[playIndex + 1].head - KeyFrame[playIndex].head) / i_max_steps;
 
+	// Calcular incrementos para patas y cola
+	KeyFrame[playIndex].FLegsInc = (KeyFrame[playIndex + 1].FLegs - KeyFrame[playIndex].FLegs) / i_max_steps;
+	KeyFrame[playIndex].RLegsInc = (KeyFrame[playIndex + 1].RLegs - KeyFrame[playIndex].RLegs) / i_max_steps;
+	KeyFrame[playIndex].tailInc  = (KeyFrame[playIndex + 1].tail  - KeyFrame[playIndex].tail)  / i_max_steps;
 }
 
 
 
-// Deltatime
+ // Deltatime
 GLfloat deltaTime = 0.0f;	// Time between current frame and last frame
 GLfloat lastFrame = 0.0f;  	// Time of last frame
 
@@ -258,6 +278,14 @@ int main()
 		KeyFrame[i].rotDogInc = 0;
 		KeyFrame[i].head = 0;
 		KeyFrame[i].headInc = 0;
+
+		// inicializar patas y cola
+		KeyFrame[i].FLegs = 0;
+		KeyFrame[i].FLegsInc = 0;
+		KeyFrame[i].RLegs = 0;
+		KeyFrame[i].RLegsInc = 0;
+		KeyFrame[i].tail = 0;
+		KeyFrame[i].tailInc = 0;
 	}
 
 
@@ -311,7 +339,6 @@ int main()
 		
 		glm::mat4 modelTemp = glm::mat4(1.0f); //Temp
 		
-	
 
 		// Use cooresponding shader when setting uniforms/drawing objects
 		lightingShader.Use();
@@ -378,7 +405,6 @@ int main()
 
 		glm::mat4 model(1);
 
-	
 		
 		//Carga de modelo 
         view = camera.GetViewMatrix();	
@@ -475,7 +501,7 @@ int main()
 	}
 
 	
-	
+
 
 	// Terminate GLFW, clearing any resources allocated by GLFW.
 	glfwTerminate();
@@ -714,10 +740,15 @@ void Animation() {
 
 			rotDog += KeyFrame[playIndex].rotDogInc;
 
+			// Aplicar interpolación a patas y cola
+			FLegs += KeyFrame[playIndex].FLegsInc;
+			RLegs += KeyFrame[playIndex].RLegsInc;
+			tail  += KeyFrame[playIndex].tailInc;
+
 			i_curr_steps++;
 		}
 
-	}
+	}		
 	
 }
 
