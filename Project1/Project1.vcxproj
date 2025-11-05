@@ -30,6 +30,12 @@
     <ClInclude Include="Model.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <ClCompile Include="fuentesDeLuz.cpp" />
+  </ItemGroup>
+>>>>>>> Stashed changes
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
